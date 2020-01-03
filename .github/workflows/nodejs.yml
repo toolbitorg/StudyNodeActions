@@ -24,6 +24,12 @@ jobs:
         npm install -g electron-packager
         make
 
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v1
+      with:
+       name: binary-release
+       path: binary-release
+
 #    - name: npm install, build, and test
 #      run: |
 #        npm ci
