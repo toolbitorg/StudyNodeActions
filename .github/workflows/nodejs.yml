@@ -21,7 +21,9 @@ jobs:
 
     - name: Build application
       run: |
+        cd src
         npm install
+        cd ../
         npm install -g electron-packager
         make
 
