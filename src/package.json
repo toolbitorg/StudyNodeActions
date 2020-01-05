@@ -20,7 +20,7 @@
     "electron-rebuild": "^1.8.5"
   },
   "dependencies": {
-    "toolbit-lib": "^0.0.1",
+    "toolbit-lib": "^0.0.3",
     "chartist": "^0.11.4",
     "chartist-plugin-zoom": "^0.5.1",
     "moment": "^2.24.0"
